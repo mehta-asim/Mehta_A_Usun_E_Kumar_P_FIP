@@ -1,0 +1,47 @@
+#whyContribution{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    #contributionText{
+        font-size: 30px;
+    }
+    h3{
+        margin-top: 40px;
+        width:668px ;
+        height: 68px;
+        font-size: 35px ;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        line-height: 68px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-right: 100px;
+        margin-top: 40px;
+        li{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 80px;
+            img{
+                width: 239px;
+                height: 254px;
+                background-color: lightblue;
+            }
+
+            p{
+                margin-top: 50px;
+            }
+        }
+    }
+
+    
+
+}

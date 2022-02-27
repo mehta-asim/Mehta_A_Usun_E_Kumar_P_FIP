@@ -1,0 +1,69 @@
+.contactSection{
+    width: 1815px;
+    height: 796px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: grey;;
+    
+    .connectSection{
+        width: 533px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h2{
+            font-size: 97px;
+            margin-bottom: 100px;
+        }
+
+        #emailBox{
+            width: 533px;
+            height: 406px;
+            background-color: white;
+            line-height: 406px;
+        }
+
+    }
+
+    .contactText{
+       width: 365px;
+       background-color: white;
+       p{
+           font-size: 30px;
+       }
+    }
+
+    .socialMediaSection{
+        width: 460px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h2{
+            font-size: 97px;
+            margin-bottom: 100px;
+        }
+
+        .mediaIcons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            img{
+                width: 178px;
+                height: 153px;
+                background-color: white;
+            }
+        }
+
+        .mediaIcons:nth-child(even){
+            margin-bottom: 70px;
+        }
+
+    }
+
+
+}

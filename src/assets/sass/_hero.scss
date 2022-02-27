@@ -1,0 +1,40 @@
+.hero{
+    max-width: 1760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    margin-left: 80px;
+    margin-right: 80px;
+    h2{
+        width: 264px;
+        height: 108px;
+        background-color: grey;
+        line-height: 110px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .heroContent{
+        width: 1334px;
+        height: 584px;
+        background-color: grey;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items: center;
+        margin-bottom: 20px;
+
+        p{
+            width: 576px;
+            height: 171px;
+            background-color: white;
+            margin-bottom: 120px;
+
+        }
+    }
+
+    
+}

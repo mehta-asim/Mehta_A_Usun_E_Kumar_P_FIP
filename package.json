@@ -1,28 +1,27 @@
 {
-  "name": "Mehta_A_Usun_E_Kumar_P_FIP",
-  "version": "1.0.0",
-  "description": "This repository is to showcase the NGO Build for FIP LEVEL IV.",
-  "main": "index.js",
-  "type": "module",
+  "name": "mehta_a_usun_e_kumar_p_fip",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node app",
-    "dev": "nodemon app"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP/issues"
-  },
-  "homepage": "https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP#readme",
   "dependencies": {
-    "express": "^4.17.2",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.49.7"
+    "core-js": "^3.8.3",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^7.0.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
   }
 }
