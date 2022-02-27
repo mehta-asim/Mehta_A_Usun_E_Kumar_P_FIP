@@ -1,0 +1,30 @@
+.newsSection{
+    width: 1694px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    h2{
+        font-size: 75px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    section{
+        margin: 0 auto;
+        #latestNews{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            justify-content: center;
+            li{
+                width: 1694px;
+                height: 159px;
+                background-color: grey;
+                text-align: left;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
