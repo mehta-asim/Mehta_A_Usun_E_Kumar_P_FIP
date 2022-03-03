@@ -8,20 +8,30 @@
     </section>
     <section class="contactText">
       <p>
-        Consequat excepteur Lorem eu sint dolore qui occaecat eiusmod officia
-        elit veniam anim est anim.
+        This mailing list is powered by MailChimp. The Wikimedia Foundation will
+        handle your personal information in accordance with this site’s privacy
+        policy.
       </p>
     </section>
     <section class="socialMediaSection">
       <h2>Social</h2>
       <section class="mediaIcons">
-        <img src="" alt="icon1" />
-        <img src="" alt="icon2" />
+        <a href=""
+          ><img src="../assets/images/instagram.svg" alt="instagram icon"
+        /></a>
+        <a href="">
+          <img src="../assets/images/facebook.svg" alt="facebook icon" />
+        </a>
       </section>
       <section class="mediaIcons">
-        <img src="" alt="icon3" />
-        <img src="" alt="icon4" />
+        <a href="">
+          <img src="../assets/images/twitter.svg" alt="twitter icon" />
+        </a>
+        <a href="">
+          <img src="../assets/images/youtube.svg" alt="youtube icon" />
+        </a>
       </section>
+      <h3>Wikimedia Foundation © 2022</h3>
     </section>
   </section>
 </template>

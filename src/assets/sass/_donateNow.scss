@@ -1,9 +1,9 @@
 .donateNow{
-    width: 735px;
-    height: 178px;
-    line-height: 180px;
-    text-align: center;
-    background-color: lightcyan;
+    // width: 735px;
+    // height: 178px;
+    // line-height: 180px;
+    // text-align: center;
+    // background-color: lightcyan;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 75px;
@@ -13,6 +13,10 @@
         height: 178px;
         line-height: 180px;
         text-align: center;
-        background-color: lightcyan;
+        background-color: #996C6C;
+        border: solid 1px black;
+        font-size: 60px;
+        color: white;
+        cursor: pointer;
     }
 }

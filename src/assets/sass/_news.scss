@@ -19,11 +19,35 @@
             text-decoration: none;
             justify-content: center;
             li{
-                width: 1694px;
-                height: 159px;
-                background-color: grey;
+
+                width: 1654px;
+                height: 310px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
                 text-align: left;
                 margin-bottom: 40px;
+                font-size: 37px;
+                padding-left: 20px;
+                padding-right: 20px;
+                color: white;
+                
+                a{
+                    margin-top: 20px;
+                    color: white;
+                }
+            }
+
+            li:nth-child(1){
+                background-color:#794F4F ;
+            }
+
+            li:nth-child(2){
+                background-color: #511818;
+            }
+
+            li:nth-child(3){
+                background-color: #8F2C2C;
             }
         }
     }
