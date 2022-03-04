@@ -1,6 +1,6 @@
 <template>
   <section id="someText">
-    <h2>Text</h2>
+    <h2>Take One Step and Save Knowledge!</h2>
   </section>
 </template>
 

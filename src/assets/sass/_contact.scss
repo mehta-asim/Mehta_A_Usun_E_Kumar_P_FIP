@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
-    background-color: grey;;
+    background-color: #574646;
     
     .connectSection{
         width: 533px;
@@ -17,6 +17,7 @@
         h2{
             font-size: 97px;
             margin-bottom: 100px;
+            color: white;
         }
 
         #emailBox{
@@ -30,9 +31,10 @@
 
     .contactText{
        width: 365px;
-       background-color: white;
        p{
-           font-size: 30px;
+           font-size: 37px;
+           color: white;
+           text-align: left;
        }
     }
 
@@ -45,6 +47,7 @@
         h2{
             font-size: 97px;
             margin-bottom: 100px;
+            color: white;
         }
 
         .mediaIcons{
@@ -54,13 +57,18 @@
 
             img{
                 width: 178px;
-                height: 153px;
-                background-color: white;
             }
         }
 
         .mediaIcons:nth-child(even){
             margin-bottom: 70px;
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 40px;
         }
 
     }

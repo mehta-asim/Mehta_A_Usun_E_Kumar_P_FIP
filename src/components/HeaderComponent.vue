@@ -4,15 +4,17 @@
     <div class="brandLogo">
       <h3 class="hidden">logo</h3>
       <a href="index.html">
-        <!-- <img src="images/logo.svg" alt="logo"> -->
+        <img
+          src="../assets/images/wiki-logo.svg"
+          alt="wikimedia foundation logo"
+        />
       </a>
     </div>
     <nav>
       <h3 class="hidden">nav bar</h3>
       <ul>
-        <li>Our Job</li>
-        <li>Nav 2</li>
-        <li>Nav 3</li>
+        <li><a href="/">Our Job</a></li>
+        <li><a href="#/about">Unite With Us</a></li>
       </ul>
     </nav>
     <button>Donate</button>

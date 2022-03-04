@@ -8,6 +8,7 @@
     <DonateNow />
     <ContactComponent />
     <NewsComponent />
+    <ProjectComponent />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import AboutFoundation from "@/components/AboutFoundation.vue";
 import DonateNow from "@/components/DonateNow.vue";
 import ContactComponent from "@/components/ContactComponent.vue";
 import NewsComponent from "@/components/NewsComponent.vue";
+import ProjectComponent from "@/components/ProjectComponent.vue";
 
 export default {
   name: "HomeView",
@@ -30,6 +32,7 @@ export default {
     DonateNow,
     ContactComponent,
     NewsComponent,
+    ProjectComponent,
   },
 };
 </script>

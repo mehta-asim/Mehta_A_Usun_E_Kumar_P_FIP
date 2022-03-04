@@ -1,0 +1,64 @@
+#projectsSection{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 72px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    #subProjects{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 1470px;
+
+        button{
+            width: 466px;
+            height: 159px;
+            background-color: grey;
+            line-height: 159px;
+            font-size: 70px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: solid 1px black;
+            color: white;
+        }
+
+        button:nth-child(odd){
+            margin-left: 20px;
+        }
+        button:nth-child(even){
+            margin-left: 20px;
+        }
+
+        button:nth-child(1){
+            background-color: #D35656;
+        }
+
+        button:nth-child(2){
+            background-color: #670F0F;
+        }
+
+        button:nth-child(3){
+            background-color: #C2B010 ;
+        }
+
+        button:nth-child(4){
+            background-color:#7280FF ;
+        }
+
+        button:nth-child(5){
+            background-color:#DB6408 ;
+        }
+
+        button:nth-child(6){
+            background-color: #15B8A2;
+        }
+    }
+}

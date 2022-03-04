@@ -1,47 +1,63 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: $main-font;
     color: $main-color;
+    background-color: #FFCC00;
+    padding-top: 20px;
+    padding-bottom: 20px;
   
     .brandLogo {
-      width: 300px;
-      height: 110px;
-      background-color: black;
-      line-height: 110px;
-      text-align: center;
+      width: 327px;
+      height: 117px;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      img{
+          width: 279px;
+      }
     }
   
     ul {
       display: flex;
       flex-direction: row;
-      justify-content: flex-start;
+      justify-content: space-evenly;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 690px;
   
       li {
         width: 320px;
         height: 90px;
-        background-color: grey;
+        background-color: white;
         text-align: center;
         line-height: 90px;
+        font-size: 44px;
+        a{
+          text-decoration: none;
+        }
       }
       li:nth-child(2) {
-        margin-left: 40px;
+        margin-left: 50px;
       }
   
-      li:last-child {
-        margin-left: 40px;
-      }
     }
   
     button {
       width: 300px;
       height: 110px;
+      font-size: 31px;
+      background-color: #654040;
+      color: white;
+      cursor: pointer;
+      border: none;
     }
   }
   

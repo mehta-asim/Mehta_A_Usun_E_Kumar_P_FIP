@@ -1,9 +1,10 @@
 <template>
   <section class="hero">
-    <h2>Text</h2>
-    <section class="heroContent">
-      <p>some text</p>
-    </section>
+    <h2 class="hidden">Text</h2>
+    <img
+      src="../assets/images/hero.jpg"
+      alt="group of people holding wikimedia foundation"
+    />
   </section>
 </template>
 
