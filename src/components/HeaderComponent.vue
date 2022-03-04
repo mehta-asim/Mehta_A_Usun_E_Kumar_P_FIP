@@ -13,8 +13,8 @@
     <nav>
       <h3 class="hidden">nav bar</h3>
       <ul>
-        <li>Our Job</li>
-        <li>Unite With Us</li>
+        <li><a href="/">Our Job</a></li>
+        <li><a href="#/about">Unite With Us</a></li>
       </ul>
     </nav>
     <button>Donate</button>

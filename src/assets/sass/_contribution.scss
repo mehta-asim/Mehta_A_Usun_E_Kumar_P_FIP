@@ -30,14 +30,20 @@
             flex-direction: column;
             justify-content: flex-start;
             margin-left: 80px;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
             img{
                 width: 239px;
                 height: 254px;
-                background-color: lightblue;
             }
 
             p{
-                margin-top: 50px;
+                margin-top: 30px;
+                font-size: 35px;
             }
         }
     }

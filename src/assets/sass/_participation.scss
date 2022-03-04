@@ -10,13 +10,10 @@
     margin-top: 180px;
 
     #participationWay{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-color: lightgrey;
+        background-color: #AEAEAE;
         width: 752px;
-        height: 538px;
         margin-bottom: 50px;
+        
         h3{
             margin-top: 50px;
             text-align: center;
@@ -26,24 +23,23 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            align-items: center;
             margin-left: 20px;
             margin-right: 20px;
             margin-bottom: 40px;
-
             img{
                 width: 335px;
-                height: 350px;
+                height: 357px;
                 background-color: grey;
                 line-height: 350px;
                 text-align: center;
             }
             p{
-                width: 335px;
-                height: 350px;
-                background-color: grey;
-                line-height: 350px;
-                text-align: center;
+                width: 318px;
+                text-align: left;
                 margin-left: 40px;
+                font-size: 25px;
+                color: white;
             }
         }
     }

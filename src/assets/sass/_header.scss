@@ -40,6 +40,9 @@ header {
         text-align: center;
         line-height: 90px;
         font-size: 44px;
+        a{
+          text-decoration: none;
+        }
       }
       li:nth-child(2) {
         margin-left: 50px;
@@ -53,6 +56,8 @@ header {
       font-size: 31px;
       background-color: #654040;
       color: white;
+      cursor: pointer;
+      border: none;
     }
   }
   
