@@ -1,6 +1,6 @@
 <template>
   <section class="contactSection">
-    <section class="connectSection">
+    <!-- <section class="connectSection">
       <h2>Connect</h2>
       <div id="emailBox">
         <h3>Email Box</h3>
@@ -12,26 +12,28 @@
         handle your personal information in accordance with this site’s privacy
         policy.
       </p>
-    </section>
+    </section> -->
     <section class="socialMediaSection">
-      <h2>Social</h2>
+      <h2>Connect With Us!</h2>
       <section class="mediaIcons">
-        <a href=""
-          ><img src="../assets/images/instagram.svg" alt="instagram icon"
+        <a href="http://www.instagram.com/"
+          ><img
+            class="instagram"
+            src="../assets/images/instagram.svg"
+            alt="instagram icon"
         /></a>
-        <a href="">
+        <a href="http://www.facebook.com/">
           <img src="../assets/images/facebook.svg" alt="facebook icon" />
         </a>
-      </section>
-      <section class="mediaIcons">
-        <a href="">
+        <!-- </section>
+      <section class="mediaIcons"> -->
+        <a href="http://www.twitter.com/">
           <img src="../assets/images/twitter.svg" alt="twitter icon" />
         </a>
-        <a href="">
+        <a href="http://www.youtube.com/">
           <img src="../assets/images/youtube.svg" alt="youtube icon" />
         </a>
       </section>
-      <h3>Wikimedia Foundation © 2022</h3>
     </section>
   </section>
 </template>

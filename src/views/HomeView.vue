@@ -6,9 +6,9 @@
     <TwitterReview />
     <AboutFoundation />
     <DonateNow />
-    <ContactComponent />
     <NewsComponent />
     <ProjectComponent />
+    <ContactComponent />
   </div>
 </template>
 

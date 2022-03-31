@@ -1,6 +1,6 @@
 <template>
   <section class="newsSection">
-    <h2>News-Notices</h2>
+    <h2>Latest News</h2>
     <section>
       <ul id="latestNews">
         <li>

@@ -1,8 +1,8 @@
 #someText{
-    width: 1676px;
-    height: 150px;
+    max-width: 300px;
+    height: 100px;
     background-color: #D68316;
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,33 @@
     margin-right: auto;
 
     h2{
-        font-size: 88px;
+        font-weight: 400;
+        font-size: 30px;
         color: white;
+        text-shadow: 3px 3px 10px rgba($color: black, $alpha: 0.3);
+
     }
+}
+
+@media screen and (min-width: 1080px){
+    #someText{
+        max-width: 1676px;
+        max-height: 150px;
+        background-color: #D68316;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px;
+        h2{
+            font-weight: 400;
+            font-size: 88px;
+            color: white;
+            text-shadow: 3px 3px 10px rgba($color: black, $alpha: 0.3);
+    
+        }
+    }
+    
 }

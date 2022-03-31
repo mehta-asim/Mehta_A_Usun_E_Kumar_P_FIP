@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <ContributionComponent />
+    <LightBox />
     <TextComponent />
     <CTAComponent />
     <ParticipationComponent />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import LightBox from "@/components/lightBoxComponent.vue";
 import TheForm from "@/components/TheForm.vue";
 import ContributionComponent from "@/components/ContributionComponent.vue";
 import TextComponent from "@/components/TextComponent.vue";
@@ -27,6 +29,7 @@ export default {
     ParticipationComponent,
     DonateNow,
     TheForm,
+    LightBox,
   },
 };
 </script>
