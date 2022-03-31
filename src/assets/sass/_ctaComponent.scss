@@ -3,54 +3,109 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #611F1F;
-    margin-top: 100px;
+    margin-top: 40px;
+    max-height: 800px;
     img{
-        width: 1246px;
-        height: 699px;
+        width: 300px;
+        // height: 1px;
         color: black;
-        margin-top: 40px;
-        line-height: 596px;
+        margin-top: 10px;
     }
 
-    h2{
-        width: 850px;
-        height: 126px;
-        font-size: 62px;
-        line-height: 126px;
-        color: white;
-        background-color: darkgrey;
-        margin-top: 40px;
-    }
 
     #ctaText{
-        font-size:87px;
+
+        font-size:30px;
         color: white;
-        margin-top: 40px;
-        width: 1471px;
+        margin-top: 20px;
+        width: 300px;
     }
 
     #ctaDesc{
-        width: 1471px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         background-color: white;
+        padding: 0px 10px;
 
         h3{
-            margin-top: 40px;
-            font-size: 45px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 500;
         }
 
         p{
             margin-top: 50px;
-            font-size: 45px;
-            margin-bottom: 40px;
+            font-size: 20px;
+            margin-bottom: 20px;
 
+        }
+    }
+}
+
+@media screen and (min-width: 1080px){
+    #ctaSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+        margin-right: 90px;
+        background-color: #611F1F;
+        margin-top: 100px;
+        max-height: 3000px;
+        img{
+            width: 1246px;
+            // height: 699px;
+            color: black;
+            margin-top: 40px;
+            line-height: 596px;
+        }
+    
+        h2{
+            width: 850px;
+            height: 126px;
+            font-size: 62px;
+            line-height: 126px;
+            color: white;
+            background-color: darkgrey;
+            margin-top: 40px;
+        }
+    
+        #ctaText{
+            font-size:80px;
+            color: white;
+            margin-top: 40px;
+            width: 1471px;
+        }
+    
+        #ctaDesc{
+            width: 1471px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background-color: white;
+    
+            h3{
+                margin-top: 40px;
+                font-size: 45px;
+                font-weight: 500;
+            }
+    
+            p{
+                margin-top: 50px;
+                font-size: 45px;
+                margin-bottom: 40px;
+    
+            }
         }
     }
 }

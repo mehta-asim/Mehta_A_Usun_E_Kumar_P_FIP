@@ -4,47 +4,179 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 25px; //total 75 including 50 from the #foundationValues
 
 
     #foundationValues{
+        // padding: 0px 10px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: #AEAEAE;
-        width: 752px;
-        height: 538px;
-        margin-bottom: 50px;
+        background: url('../assets/images/foundation-bg.jpg') no-repeat center ;
+        // background-size: 500px;
+        max-width: 752px;
+        // border: 2px solid black;
+        box-shadow: inset 0px 0px 120px 30px rgba($color: black, $alpha: 1);
+        // height: 538px;
+        margin-bottom: 10px;
         #valueDesc{
             display: flex;
             flex-direction: row;
             align-items: center;
-            margin-top: 40px;
+            margin-top: 20px;
             margin-left: 20px;
             margin-right: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
 
             img{
-                width: 335px;
-                height: 350px;
+                max-width: 100px;
+                max-height: 104.47px;
                 background-color: grey;
                 line-height: 350px;
                 text-align: center;
+                // border: 5px solid #ffcc00;
             }
             p{
-                max-width: 335px;
-                text-align: left;
+                max-width: 100px;
+                text-align: center;
                 margin-left: 40px;
-                font-size: 25px;
-                line-height: 30px;
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 1.3;
                 color: white;
+                text-shadow: 3px 3px 10px rgba($color: black, $alpha: 1.0);
             }
         }
     }
     #foundationValues:nth-child(odd){
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
+
+
+@media screen and (min-width: 1080px) and (max-width: 1666px){
+    .aboutFoundation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 25px; //total 75 including 50 from the #foundationValues
+    
+    
+        #foundationValues{
+            padding: 0px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: url('../assets/images/foundation-bg.jpg') no-repeat center ;
+            // background-size: 500px;
+            max-width: 752px;
+            // border: 2px solid black;
+            box-shadow: inset 0px 0px 120px 30px rgba($color: black, $alpha: 1);
+            // height: 538px;
+            margin-bottom: 50px;
+            #valueDesc{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 40px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+    
+                img{
+                    max-width: 335px;
+                    max-height: 350px;
+                    background-color: grey;
+                    line-height: 350px;
+                    text-align: center;
+                    // border: 5px solid #ffcc00;
+                }
+                p{
+                    max-width: 300px;
+                    text-align: center;
+                    margin-left: 40px;
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 1.3;
+                    color: white;
+                    text-shadow: 3px 3px 10px rgba($color: black, $alpha: 1.0);
+                }
+            }
+        }
+        #foundationValues:nth-child(odd){
+            margin-left: 0px;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 1667px){
+    .aboutFoundation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 25px; //total 75 including 50 from the #foundationValues
+    
+    
+        #foundationValues{
+            padding: 0px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: url('../assets/images/foundation-bg.jpg') no-repeat center ;
+            // background-size: 500px;
+            max-width: 752px;
+            // border: 2px solid black;
+            box-shadow: inset 0px 0px 120px 30px rgba($color: black, $alpha: 1);
+            // height: 538px;
+            margin-bottom: 50px;
+            #valueDesc{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 40px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+    
+                img{
+                    max-width: 335px;
+                    max-height: 350px;
+                    background-color: grey;
+                    line-height: 350px;
+                    text-align: center;
+                    // border: 5px solid #ffcc00;
+                }
+                p{
+                    max-width: 300px;
+                    text-align: center;
+                    margin-left: 40px;
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 1.3;
+                    color: white;
+                    text-shadow: 3px 3px 10px rgba($color: black, $alpha: 1.0);
+                }
+            }
+        }
+        #foundationValues:nth-child(odd){
+            margin-left: 50px;
+        }
+        
+    }
+}
+

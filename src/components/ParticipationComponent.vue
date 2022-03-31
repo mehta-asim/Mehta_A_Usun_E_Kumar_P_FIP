@@ -10,9 +10,7 @@
         />
         <p>
           No previous experience is needed to start editing Wikipedia. Visit the
-          Teahouse for a friendly place to learn about editing. Veteran editors
-          answer questions and help new editors become accustomed to Wikipedia
-          culture.
+          Teahouse for a friendly place to learn about editing.
         </p>
       </div>
     </section>
@@ -25,8 +23,7 @@
         />
         <p>
           Edit-a-thons bring people with similar interests together to create
-          and improve Wikipedia articles around a common theme. These editing
-          workshops include training for new editors.
+          and improve Wikipedia articles around a common theme.
         </p>
       </div>
     </section>
@@ -40,7 +37,7 @@
         <p>
           There are over 100 active Wikimedia affiliates around the world. Each
           supports Wikimedia projects within a geographical region or thematic
-          area. Find yours.
+          area.
         </p>
       </div>
     </section>
@@ -54,7 +51,7 @@
         <p>
           Our global technical community welcomes volunteer developers of all
           levels. We host hundreds of software projects in many different
-          domains. It’s easy to get involved.
+          domains.
         </p>
       </div>
     </section>

@@ -1,6 +1,6 @@
 <template>
   <section class="hero">
-    <h2 class="hidden">Text</h2>
+    <h2 class="hidden">Hero Section</h2>
     <img
       src="../assets/images/hero.jpg"
       alt="group of people holding wikimedia foundation"

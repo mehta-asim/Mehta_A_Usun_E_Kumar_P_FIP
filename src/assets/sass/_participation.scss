@@ -4,21 +4,25 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 25px; //total 75 including 50 from the #foundationValues
-    margin-top: 180px;
+    margin-top: 40px;
 
     #participationWay{
-        background-color: #AEAEAE;
-        width: 752px;
-        margin-bottom: 50px;
+        background: url('../assets/images/participate-bg.jpg') no-repeat center ;
+        box-shadow: inset 0px 0px 120px 30px rgba($color: black, $alpha: 1);
+        background-size: 1000px;
+        // background-color: #AEAEAE;
+        max-width: 752px;
+        margin-bottom: 10px;
         
-        h3{
-            margin-top: 50px;
-            text-align: center;
-        }
+        // h3{
+        //     margin-top: 50px;
+        //     text-align: center;
+        // }
         #participationDesc{
+            padding: 0px 10px;
             margin-top: 40px;
             display: flex;
             flex-direction: row;
@@ -28,22 +32,146 @@
             margin-right: 20px;
             margin-bottom: 40px;
             img{
-                width: 335px;
-                height: 357px;
+                width: 100px;
+                height: 104.47px;
                 background-color: grey;
                 line-height: 350px;
                 text-align: center;
             }
             p{
-                width: 318px;
-                text-align: left;
+                max-width: 100px;
+                text-align: center;
                 margin-left: 40px;
-                font-size: 25px;
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 1.3;
                 color: white;
+                text-shadow: 3px 3px 10px rgba($color: black, $alpha: 1.0);
+
             }
         }
     }
     #participationWay:nth-child(odd){
-        margin-left: 50px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1614px){
+    .participation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 25px; //total 75 including 50 from the #foundationValues
+        margin-top: 180px;
+    
+        #participationWay{
+            background: url('../assets/images/participate-bg.jpg') no-repeat center ;
+            box-shadow: inset 0px 0px 120px 30px rgba($color: black, $alpha: 1);
+            background-size: 1000px;
+            // background-color: #AEAEAE;
+            width: 752px;
+            margin-bottom: 50px;
+            
+            h3{
+                margin-top: 50px;
+                text-align: center;
+            }
+            #participationDesc{
+                padding: 0px 10px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+                img{
+                    width: 335px;
+                    height: 357px;
+                    background-color: grey;
+                    line-height: 350px;
+                    text-align: center;
+                }
+                p{
+                    max-width: 318px;
+                    text-align: center;
+                    margin-left: 40px;
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 1.3;
+                    color: white;
+                    text-shadow: 3px 3px 10px rgba($color: black, $alpha: 1.0);
+    
+                }
+            }
+        }
+        #participationWay:nth-child(odd){
+            margin-left: 0px;
+        }
+    }
+}
+
+@media screen and (min-width: 1615px){
+    .participation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 25px; //total 75 including 50 from the #foundationValues
+        margin-top: 180px;
+    
+        #participationWay{
+            background: url('../assets/images/participate-bg.jpg') no-repeat center ;
+            box-shadow: inset 0px 0px 120px 30px rgba($color: black, $alpha: 1);
+            background-size: 1000px;
+            // background-color: #AEAEAE;
+            width: 752px;
+            margin-bottom: 50px;
+            
+            h3{
+                margin-top: 50px;
+                text-align: center;
+            }
+            #participationDesc{
+                padding: 0px 10px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+                img{
+                    width: 335px;
+                    height: 357px;
+                    background-color: grey;
+                    line-height: 350px;
+                    text-align: center;
+                }
+                p{
+                    max-width: 318px;
+                    text-align: center;
+                    margin-left: 40px;
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 1.3;
+                    color: white;
+                    text-shadow: 3px 3px 10px rgba($color: black, $alpha: 1.0);
+    
+                }
+            }
+        }
+        #participationWay:nth-child(odd){
+            margin-left: 50px;
+        }
     }
 }

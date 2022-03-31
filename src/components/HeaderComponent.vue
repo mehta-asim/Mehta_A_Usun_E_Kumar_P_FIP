@@ -17,7 +17,7 @@
         <li><a href="#/about">Unite With Us</a></li>
       </ul>
     </nav>
-    <button>Donate</button>
+    <button>DONATE</button>
   </header>
 </template>
 

@@ -6,10 +6,8 @@
       <div id="valueDesc">
         <img src="../assets/images/value1.jpg" alt="people gathered around" />
         <p>
-          We are the people who keep knowledge free. There is an amazing
-          community of people around the world that makes great projects like
-          Wikipedia. We help them do that work. We take care of the technical
-          infrastructure, the legal challenges, and the growing pains.
+          There is an amazing community of people around the world that makes
+          great projects like Wikipedia and we help them do that work.
         </p>
       </div>
     </section>
@@ -35,9 +33,7 @@
         />
         <p>
           We share a commitment to free knowledge and work together with our
-          community. Volunteer contributors take the lead on editorial
-          decisions. Our public policy efforts and research initiatives focus on
-          maintaining the legal protections that make that possible.
+          community.
         </p>
       </div>
     </section>
@@ -49,10 +45,8 @@
           alt="people studying in library"
         />
         <p>
-          The Wikimedia Foundation leadership team oversees departments,
-          internal teams, and staff. The Wikimedia Foundation Board of Trustees
-          oversees our work. The Board is the Foundation’s ultimate corporate
-          authority.
+          The Wikimedia Foundation Board of Trustees oversees our work. The
+          Board is the Foundation’s ultimate corporate authority.
         </p>
       </div>
     </section>
@@ -77,9 +71,8 @@
           alt="person presenting statistics to a group of people"
         />
         <p>
-          Working with partners like Google, the Metropolitan Museum of Art, and
-          UNESCO, Wikimedia actively seeks new knowledge, closing systemic gaps
-          in global understanding of language, culture, and identity.
+          Wikimedia actively seeks new knowledge, closing systemic gaps in
+          global understanding of language, culture, and identity.
         </p>
       </div>
     </section>
