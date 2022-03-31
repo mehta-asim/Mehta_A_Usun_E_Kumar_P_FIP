@@ -1,23 +1,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP">
-    <!-- <img src="images/logo.png" alt="Logo" width="427" height="53">
-    <img src="images/logo-white.png" alt="Logo" width="427" height="53"> -->
+  <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front">
   </a>
 
   <h3 align="center">Wikimedia Foundation</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP">View Demo</a>
+    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front">View Demo</a>
     ·
-    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP/issues">Report Bug</a>
+    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front/issues">Report Bug</a>
     ·
-    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP/issues">Request Feature</a>
+    <a href="https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front/issues">Request Feature</a>
   </p>
 </p>
 
@@ -58,14 +56,15 @@ This project is about repitching the design and website for Wikimedia Foundation
 - [SASS](https://sass-lang.com/)
 - [GULP JS](https://gulpjs.com/)
 - [PHP](https://www.php.net/)
+- [LUMEN](https://lumen.laravel.com/)
 
 ## Research
 
 <h3>Styling</h3>
 Inorder to create a smooth and simple workflow usage of SASS has been made so that modules can be used and all of them can be combined into one final compressed CSS stylesheet.
 
-<h3>Database Fetch</h3>
-For a better functionality of the website a mySql database has been used and FETCH function has been used to call that data and accordingly fill the webpage on user's click.
+<h3>Database POST</h3>
+For a better functionality of the website a mySql database has been used and POST function has been used to push the data from the participation form into our db and collecting that for further communication with interested volunteers.
 
 <!-- GETTING STARTED -->
 
@@ -86,17 +85,24 @@ There are 2 things that you require for smooth functioning and viewing of the pr
 
 - [1.Install any Web Browser](https://www.google.com/search?q=download-web-browser)
 
-- [2. Install any Code Editor](https://www.google.com/search?q=download-code-editor)
+- [2. Install any Code Editor(Optional)](https://www.google.com/search?q=download-code-editor)
+
+- [3. Clone the BackEnd Respository](https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_back)
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-After installation, you open the <code>index.html</code> in a web browser to view the webpage.
+After installing the node modules, you open the BackEnd Directory and run
 
-If you want to change something you can use the code editor to open any file and make the necessary changes.
+"php -S 127.0.0.1:8000 -t public"
 
-You can inspect element and under console you can check the connection between SVG and Javascript as everytime you click on an icon the console returns with the id of the same.
+and then open FrontEnd directory in another window and run 
+"npm run serve"
+
+They both need to be running simultaneously.
+
+^^you will have to run the backend app first^^
 
 _For more literature, please refer to the [Documentation](https://www.w3schools.com/html/html_editors.asp)_
 
@@ -104,7 +110,7 @@ _For more literature, please refer to the [Documentation](https://www.w3schools.
 
 ## Roadmap
 
-See the [open issues](https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front/issues) for a list of proposed features (and known issues).
 
 <!-- LICENSE -->
 
@@ -119,5 +125,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Asim Mehta<br>
 Emre Usun<br>
 Parminder Kumar<br>
-Project Link: [https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP](https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP) <br>
+Project Link: [https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front](https://github.com/mehta-asim/Mehta_A_Usun_E_Kumar_P_FIP_front) <br>
 ©asimmehta | emreusun | parminder kumar | 2022
