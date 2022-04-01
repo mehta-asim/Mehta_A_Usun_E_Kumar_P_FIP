@@ -1,12 +1,12 @@
 <template>
   <section class="hero">
     <h2 class="hidden">Hero Section</h2>
-    <img
+    <!-- <img
       src="../assets/images/hero.jpg"
       alt="group of people holding wikimedia foundation"
-    />
+    /> -->
     <video autoplay loop muted>
-      <source src="" />
+      <source src="../assets/video/ngo.mp4" />
     </video>
   </section>
 </template>
