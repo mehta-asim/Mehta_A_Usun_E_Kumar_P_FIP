@@ -77,7 +77,7 @@ export default {
 
   methods: {
     showErrors(error) {
-      console.log("errors:", error);
+      // console.log("errors:", error);
 
       if (error.first_name) {
         this.first_name_error = true;
@@ -123,7 +123,7 @@ export default {
         role: this.role,
       };
 
-      console.log(JSON.stringify(participantData));
+      // console.log(JSON.stringify(participantData));
 
       // fetch("/api/participants")
       //   .then((res) => res.json(res.data))
@@ -141,15 +141,15 @@ export default {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.table(data);
+          // console.table(data);
           if (data.status) {
             this.isSubmit = true;
           } else {
             this.error = data;
             this.showErrors(data);
           }
-        })
-        .catch((err) => console.error(err));
+        });
+      // .catch((err) => console.error(err));
     },
   },
 
