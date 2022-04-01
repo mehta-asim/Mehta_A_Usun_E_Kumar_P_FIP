@@ -7,10 +7,12 @@
     <ParticipationComponent />
     <DonateNow />
     <TheForm />
+    <ContactComponent />
   </div>
 </template>
 
 <script>
+import ContactComponent from "@/components/ContactComponent.vue";
 import LightBox from "@/components/lightBoxComponent.vue";
 import TheForm from "@/components/TheForm.vue";
 import ContributionComponent from "@/components/ContributionComponent.vue";
@@ -30,6 +32,7 @@ export default {
     DonateNow,
     TheForm,
     LightBox,
+    ContactComponent,
   },
 };
 </script>
