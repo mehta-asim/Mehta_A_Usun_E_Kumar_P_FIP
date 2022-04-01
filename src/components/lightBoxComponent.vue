@@ -23,8 +23,6 @@ export default {
   created: function () {
     this.imgSrc =
       this.articles[Math.floor(Math.random() * this.articles.length)];
-
-    debugger;
   },
 
   methods: {

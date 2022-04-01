@@ -5,6 +5,9 @@
       src="../assets/images/hero.jpg"
       alt="group of people holding wikimedia foundation"
     />
+    <video autoplay loop muted>
+      <source src="" />
+    </video>
   </section>
 </template>
 
