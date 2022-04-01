@@ -14,7 +14,7 @@
       <h3 class="hidden">nav bar</h3>
       <ul>
         <li><a href="/">Our Job</a></li>
-        <li><a href="#/about">Unite With Us</a></li>
+        <li><a href="#/unitewithus">Unite With Us</a></li>
       </ul>
     </nav>
     <button>DONATE</button>
